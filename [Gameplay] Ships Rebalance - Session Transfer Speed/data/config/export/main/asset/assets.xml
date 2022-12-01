@@ -1,0 +1,313 @@
+<ModOps>
+	<!-- THIS FILE WAS AUTOMATICALLY GENERATED BASED ON THE STATS IN THE EXCEL SPREADSHEET
+	IF YOU WANT A MORE READABLE OVERVIEW OF WHAT STATS HAVE BEEN CHANGED READ THE SPREADSHEET -->
+
+	<!-- ignore this, internal fake variable to circumvent false modloader warnings -->
+	<ModOp GUID='194018' Type="addNextSibling">
+		<Asset>
+			<Values>
+				<Standard>
+				<GUID>2122370000</GUID>
+				</Standard>
+				<Walking>
+					<SessionTransferSpeedFactor>10000</SessionTransferSpeedFactor>
+				</Walking>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Sail Ships -->
+		<!-- Schooner -->
+		<ModOp Type="add" GUID='100438' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>0.8</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='100438' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>0.8</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Gunboat -->
+		<ModOp Type="add" GUID='100437' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='100437' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Pirate Gunboat -->
+		<ModOp Type="add" GUID='102420' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.1</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='102420' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.1</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Frigate -->
+		<ModOp Type="add" GUID='100439' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.1</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='100439' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.1</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Pirate Frigate -->
+		<ModOp Type="add" GUID='102421' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='102421' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Clipper -->
+		<ModOp Type="add" GUID='100441' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='100441' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Ship-of-the-line -->
+		<ModOp Type="add" GUID='100440' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='100440' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Pirate Ship-of-the-line -->
+		<ModOp Type="add" GUID='102419' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.1</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='102419' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.1</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Royal Ship-of-the-line -->
+		<ModOp Type="add" GUID='102427' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='102427' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>	
+	<!-- Steam Ships -->
+		<!-- Cargo Ship -->
+		<ModOp Type="add" GUID='1010062' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.3</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1010062' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.3</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Battle Cruiser -->
+		<ModOp Type="add" GUID='100442' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='100442' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Pyrphorian Battle Cruiser -->
+		<ModOp Type="add" GUID='102425' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='102425' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Monitor -->
+		<ModOp Type="add" GUID='100443' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='100443' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Pirate Monitor -->
+		<ModOp Type="add" GUID='102422' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.3</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='102422' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.3</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Pyrphorian Monitor -->
+		<ModOp Type="add" GUID='102423' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='102423' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Flamethrower Monitor -->
+		<ModOp Type="add" GUID='968' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='968' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Blue Flamethrower Monitor -->
+		<ModOp Type="add" GUID='1537' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1537' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Pyrphorian Warship -->
+		<ModOp Type="add" GUID='102428' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='102428' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- World-Class Reefer -->
+		<ModOp Type="add" GUID='132404' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>2.2</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='132404' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>2.2</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Extravaganza Steamer -->
+		<ModOp Type="add" GUID='102455' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.3</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='102455' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.3</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- The Great Eastern -->
+		<ModOp Type="add" GUID='118718' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.6</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='118718' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.6</SessionTransferSpeedFactor>
+		</ModOp>	
+	<!-- Special Ships -->
+		<!-- Flak Monitor -->
+		<ModOp Type="add" GUID='720' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='720' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Oil Tanker -->
+		<ModOp Type="add" GUID='100853' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='100853' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Salvager -->
+		<ModOp Type="add" GUID='112084' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.6</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='112084' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.6</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Flagship -->
+		<ModOp Type="add" GUID='101121' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.4</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='101121' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.4</SessionTransferSpeedFactor>
+		</ModOp>	
+	<!-- Airships -->
+		<!-- Boreas Helium -->
+		<ModOp Type="add" GUID='1755' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1755' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Boreas Arctic -->
+		<ModOp Type="add" GUID='114166' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='114166' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Harpy Helium -->
+		<ModOp Type="add" GUID='1654' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1654' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Harpy Arctic -->
+		<ModOp Type="add" GUID='1733' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1733' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Harpy (Armed) Helium -->
+		<ModOp Type="add" GUID='1054' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>0</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1054' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>0</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Harpy (Armed) Arctic -->
+		<ModOp Type="add" GUID='1731' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1731' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Manticore Helium -->
+		<ModOp Type="add" GUID='1655' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1.1</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1655' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1.1</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Manticore Arctic -->
+		<ModOp Type="add" GUID='1734' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>0.8</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1734' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>0.8</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Manticore (Armed) Helium -->
+		<ModOp Type="add" GUID='1056' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>0.9</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1056' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>0.9</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Manticore (Armed) Arctic -->
+		<ModOp Type="add" GUID='1732' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>0.8</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1732' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>0.8</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Hermes Helium -->
+		<ModOp Type="add" GUID='1058' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>0.9</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1058' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>0.9</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Hermes Arctic -->
+		<ModOp Type="add" GUID='1735' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>0.8</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1735' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>0.8</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Pegasus Helium -->
+		<ModOp Type="add" GUID='1059' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>0.9</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1059' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>0.9</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Pegasus Arctic -->
+		<ModOp Type="add" GUID='1736' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>0.8</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1736' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>0.8</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Zephyr Helium -->
+		<ModOp Type="add" GUID='1060' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>0.9</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1060' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>0.9</SessionTransferSpeedFactor>
+		</ModOp>	
+		<!-- Zephyr Arctic -->
+		<ModOp Type="add" GUID='1737' Path="/Values/Walking[not(SessionTransferSpeedFactor)] | //Values[Standard/GUID='2122370000']/Walking[SessionTransferSpeedFactor=10000]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>
+		<ModOp Type="merge" GUID='1737' Path="/Values/Walking[boolean(SessionTransferSpeedFactor)]">
+			<SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+		</ModOp>	
+	
+	<!-- cleanup -->
+	<ModOp GUID='2122370000' Type="remove"></ModOp>
+</ModOps>

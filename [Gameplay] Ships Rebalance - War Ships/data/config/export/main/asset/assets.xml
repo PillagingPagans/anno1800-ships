@@ -1,0 +1,2053 @@
+<ModOps>
+	<!-- THIS FILE WAS AUTOMATICALLY GENERATED BASED ON THE STATS IN THE EXCEL SPREADSHEET
+	IF YOU WANT A MORE READABLE OVERVIEW OF WHAT STATS HAVE BEEN CHANGED READ THE SPREADSHEET -->
+
+	<!-- ignore this, internal fake variable to circumvent false modloader warnings -->
+	<ModOp GUID='194018' Type="addNextSibling">
+		<Asset>
+			<Values>
+				<Standard>
+				<GUID>2122370000</GUID>
+				</Standard>
+				<Walking>
+					<Acceleration>10000</Acceleration>
+					<Deceleration>10000</Deceleration>
+					<ForwardSpeed>10000</ForwardSpeed>
+				</Walking>
+				<Attackable>
+					<MaximumHitPoints>10000</MaximumHitPoints>
+				</Attackable>
+				<ItemContainer>
+					<SocketCount>10000</SocketCount>
+					<SlotCount>10000</SlotCount>
+				</ItemContainer>
+				<Cost>
+					<InfluenceCostPoints>10000</InfluenceCostPoints>
+				</Cost>
+				<ShipMaintenance>
+					<Maintenance>10000</Maintenance>
+				</ShipMaintenance>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Sail Ships -->
+		<!-- Gunboat -->
+		<ModOp Type="add" GUID='100437' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>2</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='100437' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>2</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='100437' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>4</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='100437' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>4</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='100437' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>5.1</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='100437' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>5.1</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='100437' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>1</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='100437' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>1</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='100437' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='100437' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='100437' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>950</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='100437' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>950</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='100437' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>140</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='100437' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>140</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='100437' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>45</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='100437' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>45</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='100437' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>25</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='100437' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>25</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='100437' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='100437' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<!-- Pirate Gunboat -->
+		<ModOp Type="add" GUID='102420' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>2</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102420' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>2</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102420' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>4</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102420' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>4</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102420' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>6.1</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='102420' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>6.1</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='102420' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>1</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102420' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>1</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102420' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102420' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102420' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>950</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102420' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>950</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='102420' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>140</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='102420' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>140</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='102420' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>45</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='102420' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>45</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='102420' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>25</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='102420' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>25</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='102420' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102420' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<!-- Frigate -->
+		<ModOp Type="add" GUID='100439' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='100439' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='100439' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='100439' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='100439' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>5.2</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='100439' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>5.2</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='100439' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='100439' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='100439' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='100439' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='100439' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>2000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='100439' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>2000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='100439' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>215</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='100439' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>215</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='100439' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>55</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='100439' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>55</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='100439' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>100</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='100439' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>100</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='100439' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>8</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='100439' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>8</InfluenceCostPoints>
+		</ModOp>
+		<!-- Pirate Frigate -->
+		<ModOp Type="add" GUID='102421' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102421' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102421' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102421' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102421' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>6.24</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='102421' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>6.24</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='102421' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102421' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102421' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102421' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102421' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>2500</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102421' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>2500</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='102421' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>215</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='102421' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>215</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='102421' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>55</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='102421' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>55</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='102421' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>100</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='102421' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>100</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='102421' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>8</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102421' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>8</InfluenceCostPoints>
+		</ModOp>
+		<!-- Ship-of-the-line -->
+		<ModOp Type="add" GUID='100440' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='100440' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='100440' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>1</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='100440' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>1</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='100440' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>4</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='100440' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>4</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='100440' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='100440' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='100440' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='100440' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='100440' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>4000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='100440' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>4000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='100440' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>525</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='100440' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>525</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='100440' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>68</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='100440' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>68</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='100440' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>250</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='100440' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>250</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='100440' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>16</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='100440' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>16</InfluenceCostPoints>
+		</ModOp>
+		<!-- Pirate Ship-of-the-line -->
+		<ModOp Type="add" GUID='102419' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102419' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102419' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>1</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102419' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>1</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102419' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>4.8</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='102419' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>4.8</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='102419' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102419' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102419' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102419' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102419' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>4000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102419' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>4000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='102419' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>525</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='102419' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>525</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='102419' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>68</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='102419' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>68</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='102419' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>250</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='102419' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>250</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='102419' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>16</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102419' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>16</InfluenceCostPoints>
+		</ModOp>
+		<!-- Royal Ship-of-the-line -->
+		<ModOp Type="add" GUID='102427' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102427' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102427' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>1</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102427' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>1</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102427' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>4</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='102427' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>4</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='102427' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102427' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102427' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102427' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102427' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>5000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102427' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>5000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='102427' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>650</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='102427' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>650</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='102427' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>68</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='102427' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>68</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='102427' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>250</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='102427' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>250</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='102427' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>16</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102427' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>16</InfluenceCostPoints>
+		</ModOp>
+	<!-- Steam Ships -->
+		<!-- Battle Cruiser -->
+		<ModOp Type="add" GUID='100442' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>0.75</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='100442' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>0.75</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='100442' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>1</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='100442' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>1</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='100442' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>4.5</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='100442' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>4.5</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='100442' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='100442' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='100442' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>4</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='100442' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>4</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='100442' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>6000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='100442' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>6000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='100442' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>325</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='100442' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>325</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='100442' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>84</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='100442' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>84</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='100442' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>850</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='100442' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>850</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='100442' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>24</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='100442' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>24</InfluenceCostPoints>
+		</ModOp>
+		<!-- Pyrphorian Battle Cruiser -->
+		<ModOp Type="add" GUID='102425' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>0.75</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102425' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>0.75</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102425' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>1</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102425' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>1</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102425' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>4.5</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='102425' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>4.5</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='102425' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102425' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102425' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>4</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102425' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>4</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102425' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>8000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102425' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>8000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='102425' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>165</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='102425' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>165</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='102425' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>42</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='102425' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>42</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='102425' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1000</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='102425' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1000</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='102425' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>24</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102425' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>24</InfluenceCostPoints>
+		</ModOp>
+		<!-- Monitor -->
+		<ModOp Type="add" GUID='100443' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='100443' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='100443' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='100443' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='100443' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>5.3</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='100443' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>5.3</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='100443' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='100443' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='100443' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='100443' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='100443' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>3000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='100443' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>3000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='100443' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>100</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='100443' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>100</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='100443' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>48</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='100443' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>48</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='100443' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>300</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='100443' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>300</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='100443' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>12</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='100443' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>12</InfluenceCostPoints>
+		</ModOp>
+		<!-- Pirate Monitor -->
+		<ModOp Type="add" GUID='102422' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102422' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102422' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102422' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102422' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>6.36</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='102422' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>6.36</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='102422' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102422' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102422' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102422' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102422' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>3000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102422' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>3000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='102422' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>100</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='102422' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>100</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='102422' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>48</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='102422' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>48</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='102422' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>300</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='102422' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>300</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='102422' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>12</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102422' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>12</InfluenceCostPoints>
+		</ModOp>
+		<!-- Pyrphorian Monitor -->
+		<ModOp Type="add" GUID='102423' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102423' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102423' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102423' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102423' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>5.3</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='102423' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>5.3</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='102423' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102423' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102423' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102423' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102423' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>5000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102423' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>5000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='102423' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>45</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='102423' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>45</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='102423' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>30</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='102423' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>30</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='102423' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>300</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='102423' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>300</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='102423' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>12</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102423' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>12</InfluenceCostPoints>
+		</ModOp>
+		<!-- Flamethrower Monitor -->
+		<ModOp Type="add" GUID='968' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='968' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='968' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='968' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='968' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>5.3</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='968' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>5.3</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='968' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='968' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='968' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='968' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='968' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>2500</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='968' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>2500</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='968' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>41</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='968' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>41</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='968' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>30</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='968' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>30</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='968' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>390</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='968' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>390</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='968' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>12</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='968' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>12</InfluenceCostPoints>
+		</ModOp>
+		<!-- Blue Flamethrower Monitor -->
+		<ModOp Type="add" GUID='1537' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1537' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1537' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1537' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1537' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>5.3</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1537' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>5.3</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1537' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1537' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1537' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1537' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1537' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>2200</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1537' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>2200</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1537' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>60</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1537' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>60</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1537' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>30</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1537' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>30</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1537' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>390</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1537' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>390</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1537' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>14</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1537' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>14</InfluenceCostPoints>
+		</ModOp>
+		<!-- Pyrphorian Warship -->
+		<ModOp Type="add" GUID='102428' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102428' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102428' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='102428' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='102428' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>5.3</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='102428' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>5.3</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='102428' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102428' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102428' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='102428' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='102428' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>6000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102428' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>6000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='102428' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='102428' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='102428' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='102428' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='102428' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>800</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='102428' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>800</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='102428' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>18</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='102428' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>18</InfluenceCostPoints>
+		</ModOp>
+	<!-- Special Ships -->;0
+		<!-- Flak Monitor -->
+		<ModOp Type="add" GUID='720' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>0.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='720' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>0.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='720' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>0.5</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='720' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>0.5</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='720' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>5.3</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='720' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>5.3</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='720' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='720' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='720' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='720' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='720' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>3000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='720' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>3000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='720' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>22</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='720' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>22</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='720' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>40</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='720' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>40</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='720' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>650</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='720' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>650</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='720' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>20</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='720' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>20</InfluenceCostPoints>
+		</ModOp>
+		<!-- Flagship -->
+		<ModOp Type="add" GUID='101121' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='101121' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='101121' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='101121' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='101121' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>5</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='101121' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>5</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='101121' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='101121' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='101121' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='101121' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='101121' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>2000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='101121' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>2000</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='101121' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>250</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='101121' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>250</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='101121' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>55</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='101121' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>55</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='101121' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>0</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='101121' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>0</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='101121' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>0</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='101121' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>0</InfluenceCostPoints>
+		</ModOp>
+	<!-- Airships -->
+		<!-- Boreas Helium -->
+		<ModOp Type="add" GUID='1755' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>2</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1755' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>2</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1755' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1755' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1755' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>11.7</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1755' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>11.7</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1755' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>4</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1755' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>4</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1755' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1755' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1755' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>2400</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1755' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>2400</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1755' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1755' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1755' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1755' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1755' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1500</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1755' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1500</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1755' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>6</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1755' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>6</InfluenceCostPoints>
+		</ModOp>
+		<!-- Boreas Arctic -->
+		<ModOp Type="add" GUID='114166' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>2</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='114166' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>2</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='114166' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='114166' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='114166' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>11.7</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='114166' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>11.7</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='114166' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>4</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='114166' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>4</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='114166' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='114166' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='114166' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>2400</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='114166' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>2400</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='114166' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='114166' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='114166' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='114166' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='114166' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1500</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='114166' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1500</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='114166' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>6</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='114166' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>6</InfluenceCostPoints>
+		</ModOp>
+		<!-- Harpy Helium -->
+		<ModOp Type="add" GUID='1654' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1654' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1654' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>5</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1654' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>5</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1654' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>15</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1654' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>15</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1654' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1654' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1654' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>1</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1654' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>1</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1654' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>1400</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1654' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>1400</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1654' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1654' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1654' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1654' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1654' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1200</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1654' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1200</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1654' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>2</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1654' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>2</InfluenceCostPoints>
+		</ModOp>
+		<!-- Harpy Arctic -->
+		<ModOp Type="add" GUID='1733' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1733' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1733' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>5</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1733' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>5</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1733' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>15</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1733' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>15</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1733' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1733' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>2</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1733' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>1</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1733' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>1</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1733' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>1400</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1733' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>1400</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1733' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1733' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1733' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1733' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1733' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1200</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1733' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1200</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1733' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>2</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1733' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>2</InfluenceCostPoints>
+		</ModOp>
+		<!-- Harpy (Armed) Helium -->
+		<ModOp Type="add" GUID='1054' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1054' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1054' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>5</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1054' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>5</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1054' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>15</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1054' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>15</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1054' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>1</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1054' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>1</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1054' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1054' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1054' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>1400</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1054' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>1400</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1054' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>55</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1054' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>55</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1054' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1054' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1054' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1400</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1054' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1400</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1054' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1054' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<!-- Harpy (Armed) Arctic -->
+		<ModOp Type="add" GUID='1731' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1731' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1731' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>5</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1731' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>5</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1731' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>15</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1731' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>15</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1731' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>1</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1731' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>1</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1731' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1731' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1731' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>1400</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1731' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>1400</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1731' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>55</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1731' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>55</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1731' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1731' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1731' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1400</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1731' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1400</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1731' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1731' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<!-- Manticore Helium -->
+		<ModOp Type="add" GUID='1655' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>3.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1655' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>3.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1655' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>3.5</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1655' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>3.5</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1655' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>13</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1655' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>13</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1655' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1655' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1655' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1655' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1655' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>2300</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1655' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>2300</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1655' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1655' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1655' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1655' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1655' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1625</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1655' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1625</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1655' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1655' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<!-- Manticore Arctic -->
+		<ModOp Type="add" GUID='1734' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>3.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1734' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>3.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1734' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>3.5</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1734' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>3.5</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1734' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>13</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1734' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>13</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1734' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1734' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1734' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1734' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1734' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>2300</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1734' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>2300</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1734' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1734' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1734' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1734' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1734' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1625</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1734' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1625</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1734' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1734' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<!-- Manticore (Armed) Helium -->
+		<ModOp Type="add" GUID='1056' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>3.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1056' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>3.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1056' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>3.5</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1056' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>3.5</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1056' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>13</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1056' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>13</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1056' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1056' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1056' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1056' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1056' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>2300</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1056' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>2300</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1056' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>130</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1056' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>130</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1056' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1056' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1056' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1875</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1056' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1875</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1056' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>6</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1056' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>6</InfluenceCostPoints>
+		</ModOp>
+		<!-- Manticore (Armed) Arctic -->
+		<ModOp Type="add" GUID='1732' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>3.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1732' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>3.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1732' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>3.5</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1732' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>3.5</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1732' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>13</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1732' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>13</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1732' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1732' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1732' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1732' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1732' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>2300</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1732' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>2300</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1732' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>130</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1732' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>130</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1732' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1732' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1732' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1875</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1732' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1875</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1732' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>6</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1732' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>6</InfluenceCostPoints>
+		</ModOp>
+		<!-- Hermes Helium -->
+		<ModOp Type="add" GUID='1058' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1058' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1058' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>1.5</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1058' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>1.5</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1058' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>12</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1058' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>12</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1058' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1058' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1058' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1058' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1058' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>1600</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1058' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>1600</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1058' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1058' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1058' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1058' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1058' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1125</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1058' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1125</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1058' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1058' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<!-- Hermes Arctic -->
+		<ModOp Type="add" GUID='1735' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1735' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>1.5</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1735' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>1.5</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1735' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>1.5</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1735' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>12</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1735' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>12</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1735' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1735' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>3</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1735' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1735' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1735' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>1600</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1735' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>1600</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1735' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1735' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1735' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1735' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1735' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1125</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1735' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1125</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1735' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1735' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>4</InfluenceCostPoints>
+		</ModOp>
+		<!-- Pegasus Helium -->
+		<ModOp Type="add" GUID='1059' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>2</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1059' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>2</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1059' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1059' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1059' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>11</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1059' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>11</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1059' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>5</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1059' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>5</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1059' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1059' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1059' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>2800</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1059' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>2800</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1059' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1059' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1059' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1059' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1059' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1875</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1059' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1875</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1059' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>12</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1059' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>12</InfluenceCostPoints>
+		</ModOp>
+		<!-- Pegasus Arctic -->
+		<ModOp Type="add" GUID='1736' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>2</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1736' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>2</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1736' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1736' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>2</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1736' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>11</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1736' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>11</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1736' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>5</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1736' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>5</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1736' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1736' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>3</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1736' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>2800</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1736' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>2800</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1736' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1736' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1736' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1736' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1736' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>1875</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1736' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>1875</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1736' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>12</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1736' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>12</InfluenceCostPoints>
+		</ModOp>
+		<!-- Zephyr Helium -->
+		<ModOp Type="add" GUID='1060' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>0.3</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1060' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>0.3</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1060' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>0.5</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1060' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>0.5</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1060' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>10</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1060' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>10</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1060' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>8</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1060' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>8</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1060' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1060' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1060' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>3500</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1060' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>3500</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1060' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1060' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1060' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1060' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1060' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>2500</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1060' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>2500</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1060' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>20</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1060' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>20</InfluenceCostPoints>
+		</ModOp>
+		<!-- Zephyr Arctic -->
+		<ModOp Type="add" GUID='1737' Path="/Values/Walking[not(Acceleration)] | //Values[Standard/GUID='2122370000']/Walking[Acceleration=10000]">
+			<Acceleration>0.3</Acceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1737' Path="/Values/Walking[boolean(Acceleration)]">
+			<Acceleration>0.3</Acceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1737' Path="/Values/Walking[not(Deceleration)] | //Values[Standard/GUID='2122370000']/Walking[Deceleration=10000]">
+			<Deceleration>0.5</Deceleration>
+		</ModOp>
+		<ModOp Type="merge" GUID='1737' Path="/Values/Walking[boolean(Deceleration)]">
+			<Deceleration>0.5</Deceleration>
+		</ModOp>
+		<ModOp Type="add" GUID='1737' Path="/Values/Walking[not(ForwardSpeed)] | //Values[Standard/GUID='2122370000']/Walking[ForwardSpeed=10000]">
+			<ForwardSpeed>10</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="merge" GUID='1737' Path="/Values/Walking[boolean(ForwardSpeed)]">
+			<ForwardSpeed>10</ForwardSpeed>
+		</ModOp>
+		<ModOp Type="add" GUID='1737' Path="/Values/ItemContainer[not(SocketCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SocketCount=10000]">
+			<SocketCount>8</SocketCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1737' Path="/Values/ItemContainer[boolean(SocketCount)]">
+			<SocketCount>8</SocketCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1737' Path="/Values/ItemContainer[not(SlotCount)] | //Values[Standard/GUID='2122370000']/ItemContainer[SlotCount=10000]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="merge" GUID='1737' Path="/Values/ItemContainer[boolean(SlotCount)]">
+			<SlotCount>2</SlotCount>
+		</ModOp>
+		<ModOp Type="add" GUID='1737' Path="/Values/Attackable[not(MaximumHitPoints)] | //Values[Standard/GUID='2122370000']/Attackable[MaximumHitPoints=10000]">
+			<MaximumHitPoints>3500</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1737' Path="/Values/Attackable[boolean(MaximumHitPoints)]">
+			<MaximumHitPoints>3500</MaximumHitPoints>
+		</ModOp>
+		<ModOp Type="add" GUID='1737' Path="/Values/Attacker[not(BaseDamage)] | //Values[Standard/GUID='2122370000']/Attacker[BaseDamage=10000]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="merge" GUID='1737' Path="/Values/Attacker[boolean(BaseDamage)]">
+			<BaseDamage>0</BaseDamage>
+		</ModOp>
+		<ModOp Type="add" GUID='1737' Path="/Values/Attacker[not(AttackRange)] | //Values[Standard/GUID='2122370000']/Attacker[AttackRange=10000]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="merge" GUID='1737' Path="/Values/Attacker[boolean(AttackRange)]">
+			<AttackRange>0</AttackRange>
+		</ModOp>
+		<ModOp Type="add" GUID='1737' Path="/Values/ShipMaintenance[not(Maintenance)] | //Values[Standard/GUID='2122370000']/ShipMaintenance[Maintenance=10000]">
+			<Maintenance>2500</Maintenance>
+		</ModOp>
+		<ModOp Type="merge" GUID='1737' Path="/Values/ShipMaintenance[boolean(Maintenance)]">
+			<Maintenance>2500</Maintenance>
+		</ModOp>
+		<ModOp Type="add" GUID='1737' Path="/Values/Cost[not(InfluenceCostPoints)] | //Values[Standard/GUID='2122370000']/Cost[InfluenceCostPoints=10000]">
+			<InfluenceCostPoints>20</InfluenceCostPoints>
+		</ModOp>
+		<ModOp Type="merge" GUID='1737' Path="/Values/Cost[boolean(InfluenceCostPoints)]">
+			<InfluenceCostPoints>20</InfluenceCostPoints>
+		</ModOp>
+
+	<ModOp GUID='2122370000' Type="remove"></ModOp>
+</ModOps>

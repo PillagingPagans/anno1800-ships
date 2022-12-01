@@ -1,0 +1,55 @@
+{
+    "Version": "1",
+    "ModID": "Ships_Rebalance_Session_Transfer_Speed",
+    "IncompatibleIds": [
+      ""
+    ],
+    "ModDependencies": null,
+    "Category": {
+      "Chinese": null,
+      "English": "Gameplay",
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    "ModName": {
+      "Chinese": null,
+      "English": "Ships Rebalance - Session Transfer Speed",
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    "Description": {
+      "Chinese": null,
+      "English": "Rebalances the session transfer speed for ships and airships.",
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    "KnownIssues": null,
+    "DLCDependencies": [
+      {
+      }
+    ],
+    "CreatorName": "PillagingPagans",
+    "CreatorContact": "https://discord.gg/YTQGDFK",
+    "Image" : null
+  }

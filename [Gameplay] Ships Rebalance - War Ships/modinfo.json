@@ -1,0 +1,55 @@
+{
+    "Version": "1",
+    "ModID": "Ships_Rebalance_War_Ships",
+    "IncompatibleIds": [
+      ""
+    ],
+    "ModDependencies": null,
+    "Category": {
+      "Chinese": null,
+      "English": "Gameplay",
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    "ModName": {
+      "Chinese": null,
+      "English": "Ships Rebalance - War Ships",
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    "Description": {
+      "Chinese": null,
+      "English": "Rebalances all the war (air)ships.",
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    "KnownIssues": null,
+    "DLCDependencies": [
+      {
+      }
+    ],
+    "CreatorName": "PillagingPagans",
+    "CreatorContact": "https://discord.gg/YTQGDFK",
+    "Image" : null
+  }
